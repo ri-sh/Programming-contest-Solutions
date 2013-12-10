@@ -1,0 +1,90 @@
+Old Code Archive Index:
+===========================================================================
+
+2D Geometry:		Old/2D_Geometry/
+------------------------
+ ccw.c			Determines the orientation of 3 points 
+ convex_hull.c		Computes the convex hull of a list of points.
+*dist_line.c		Computes the distance of a point to a line.
+ intersect_line_test.c	Test if two line segments intersect
+ intersect_line.c	Find the intersection pt (if any) of two line seg.
+ intersect_iline.c:	Find the intersection pt of two infinite lines
+*min_circle.c:		Compute the minimal area bounding circle of a pt.set
+*point_in_polygon.c	Determine if a point is inside a polygon
+ poly_bisect.c		Find bisection point of a convex polygon
+ polygon_intersection.c Find intersection of two convex polygons
+ tin_cut.c:		Generic "tin cutting" algorithm.
+ traverse.c:            Traverse a graph of (x,y) points in ccw-fashion
+
+3D Geometry:		Old/3D_Geometry/
+------------------------
+ intersect_cyl-line.c	Intersection of a cylinder and a line
+ rotate3d4d.c		Rotation of points in 3D/4D space
+
+Arithmetic:		Old/Arithmetic/
+------------------------
+ bignum.c		Arbitrary precision unsigned arithmetic v1
+ bignum2.c		Arbitrary precision unsigned arithmetic v2
+ binom.c		Computes the binomial coefficient
+ cra.c:			Chinese remainder theorem algorithm.
+ diophantine.c:         Solve linear diophantine equations /w integer coeff.
+ diophantine_gene...    Solve integer linear diophantine eq. over N vars.
+ euclid.c:		Euclidean algorithm (gcd)
+ euclid_extended.c:     Extended Euclidean algorithm
+ exp.c:			Fast exponentiation
+ expmod.c:		Fast exponentiation mod m
+ fflinsolve.c:		Solve systems of linear equations Ax=b over integers.
+ gausselim.c:		Compute upper echelon form and determinant of a matrix.
+ int_mult.c:		Multiply/divide without overflow
+ int_prog.c:		Integer programming.
+ lin_eq.c:		Solve systems of linear eqns Ax=b using floating pt.
+ mult.c:		Multiply/divide without overflow
+ numdivisors.c:		Count # of divisors of each number in a range.
+ primes.c		Calculate a table of primes
+ simplex.c		Solve linear programs
+ simpson.c:		Simpson's rule for numerical integration.
+ zero_one.c:		Zero-one programming.
+
+Data Structures:	Old/Data_Struct
+------------------------
+ bitset.c		Set operations implemented by bitmap.
+ circ_queue.c		A dynamically-resizable circular queue.
+ deque.c:		Double-ended queue implementation using an array
+ heap.c:		A heap implementation with dynamic growth.
+ rbtree.cc		Red-black tree implementation
+ unionfind.c		Union-find to compute equivalence classes.
+ unionfind_v2.c		Weighted union-find to compute equivalence classes
+
+Dynamic:		Old/Dynamic
+------------------------
+*string_dist.c:         Edit distance between two strings with path recovery
+ transpose-string.c	Edit distance between two strings with transposes
+ vecsum.c		Find the contiguous subvector with largest sum
+
+Generators:		Old/Generators
+------------------------
+ debruijn.c:            Generate a de Bruijn sequence
+ gray_code.c:		Generate a Gray code.
+
+Graph Theory:		Old/Graph Theory
+------------------------
+ bfs_path.c:	        BFS search template (to find shortest dist)
+ biconnect.c:		Compute biconnected components (BUGGY!)
+*bipartite_match.c:     Unweighted matching in a bipartite graph.
+ dijkstra.c:		Find shortest distance from one vertex to all others
+ dijkstra_sparse.c:	Dijkstra's Algorithm - heap version.
+*floyd.c:		All-pairs closest path
+ floyd_path.c:          Like floyd.c, but also stores the paths.
+ floyd_new.c		New version to recover paths
+*maxflow.c:		Max flow in a directed graph.
+*mst.c:			Kruskal's minimum spanning tree algorithm.
+*topological_sort.c:    Topological sort a DAG
+ w_match.c		Weighted bipartite matching
+
+Miscellaneous:		Old/Misc
+------------------------
+ ispow2.c		Determines if a number is a power of 2.
+ mycat.c                Acts like cat -E.  Add '$' signs to indicate '\n'
+ binsearch.c		Binary search template
+ dow.c			Computing the day of the week.
+ next_permutation.c:    Generate the lexicographically next permutation.
